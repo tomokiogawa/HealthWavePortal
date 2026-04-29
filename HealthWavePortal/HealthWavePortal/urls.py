@@ -20,4 +20,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('onCall/',include('onCallRecord.urls')),
+    path('ltc/', include("ltc.urls")),
 ]
